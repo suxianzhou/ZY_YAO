@@ -87,9 +87,9 @@
     
     requestManager.delegate = self;
     
-    [requestManager replacePasswordWithUsername:@"18562599337"
+    [requestManager replacePasswordWithUsername:@"13792441528"
                                     AndPassword:@"qwertyu"
-                               verificationCode:@"7809"];
+                               verificationCode:@"1441"];
     
     CFRunLoopRun();
 }
@@ -138,9 +138,9 @@
     
     requestManager.delegate = self;
     
-    [requestManager registerWithUsername:@"15239358919"
+    [requestManager registerWithUsername:@"13792441528"
                              AndPassword:@"qwertyu"
-                        verificationCode:@"1671"];
+                        verificationCode:@"1441"];
 
         CFRunLoopRun();
 }
@@ -163,7 +163,7 @@
 {
     RWRequsetManager *requestManager = [[RWRequsetManager alloc] init];
     
-    [requestManager obtainVerificationWithPhoneNunber:@"15239358919" result:^(BOOL succeed, NSString *reason) {
+    [requestManager obtainVerificationWithPhoneNunber:@"13792441528" result:^(BOOL succeed, NSString *reason) {
         
         if (!succeed)
         {
