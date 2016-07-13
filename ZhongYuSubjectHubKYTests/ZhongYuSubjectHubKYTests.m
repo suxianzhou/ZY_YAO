@@ -113,8 +113,8 @@
     
     requestManager.delegate = self;
     
-    [requestManager userinfoWithUsername:@"18562599337"
-                             AndPassword:@"qwertyu"];
+    [requestManager userinfoWithUsername:@"15966834810"
+                             AndPassword:@"123456789"];
     
     CFRunLoopRun();
 }
