@@ -22,7 +22,7 @@
 #define UPDATE_USERNAME @"http://www.zhongyuedu.com/api/yy_yao_post.php"
 //>> 上传
 #define EXPERIENCE_TIMES_URL @"http://api.zhongyuedu.com/tik/yao/yao_limit.php"
-//>> 天王盖地虎
+/r/>> 天王盖地虎
 #define RECEIVE_PUSH @"http://www.zhongyuedu.com/api/yao_url.php"
 //>> push
 #define LOGIN_URL @"http://api.zhongyuedu.com/tik/yao/login.php"
