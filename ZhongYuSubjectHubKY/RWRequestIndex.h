@@ -11,7 +11,7 @@
 
 #define NAV_TITLE @"药师资讯"
 
-#define MAIN_INDEX [NSURL URLWithString:@"http://www.zhongyuedu.com/tgm/test/test13/index.html"]
+#define MAIN_INDEX [NSURL URLWithString:@"http://m.zhongyuyao.com/list.php?fid=55"]
 //>> 资讯
 #define SERVERS_INDEX @"http://www.zhongyuedu.com/api/tk_yao_examtype.php"
 //>> 题库目录
