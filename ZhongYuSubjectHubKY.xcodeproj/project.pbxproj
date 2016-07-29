@@ -184,8 +184,6 @@
 		1234BC871D4B2B7D0066AF75 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 1234BC761D4B2B7D0066AF75 /* UIImageView+WebCache.m */; };
 		1234BC881D4B2B7D0066AF75 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1234BC781D4B2B7D0066AF75 /* UIView+WebCacheOperation.m */; };
 		1234BC8B1D4B2B9D0066AF75 /* RWMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1234BC8A1D4B2B9D0066AF75 /* RWMainViewController.m */; };
-		1234BC901D4B2BD70066AF75 /* RWCompleteCutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1234BC8E1D4B2BD70066AF75 /* RWCompleteCutView.m */; };
-		1234BC911D4B2BD70066AF75 /* RWInformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1234BC8F1D4B2BD70066AF75 /* RWInformationViewController.m */; };
 		123D2AF81D2A59E900A5C1BF /* RWPassWordBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 123D2AF71D2A59E900A5C1BF /* RWPassWordBaseViewController.m */; };
 		125B61751D14032C00318CCD /* Xingkai.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 125CB20C1D13E9F600AC730F /* Xingkai.ttc */; };
 		125CB20E1D13EA2A00AC730F /* ClockSound2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 125CB20D1D13EA2A00AC730F /* ClockSound2.mp3 */; };
@@ -237,6 +235,8 @@
 		1263F6AE1CDB34CD0089EC9F /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1263F6AD1CDB34CD0089EC9F /* MessageUI.framework */; };
 		1263F6B01CDB34E00089EC9F /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1263F6AF1CDB34E00089EC9F /* JavaScriptCore.framework */; };
 		1263F6B21CDB34F70089EC9F /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1263F6B11CDB34F70089EC9F /* libstdc++.tbd */; };
+		128169C11D4B40BE00DD8826 /* RWInformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 128169C01D4B40BE00DD8826 /* RWInformationViewController.m */; };
+		128169C41D4B415200DD8826 /* RWCompleteCutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 128169C31D4B415200DD8826 /* RWCompleteCutView.m */; };
 		128F40C41CFBEAE70095F69B /* GGWelcome.png in Resources */ = {isa = PBXBuildFile; fileRef = 128F40C31CFBEAE70095F69B /* GGWelcome.png */; };
 		129B65611CD98220007A7224 /* corr.png in Resources */ = {isa = PBXBuildFile; fileRef = 129B655F1CD98220007A7224 /* corr.png */; };
 		129B65621CD98220007A7224 /* mark.png in Resources */ = {isa = PBXBuildFile; fileRef = 129B65601CD98220007A7224 /* mark.png */; };
@@ -983,6 +983,10 @@
 		1263F6AD1CDB34CD0089EC9F /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		1263F6AF1CDB34E00089EC9F /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		1263F6B11CDB34F70089EC9F /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		128169BF1D4B40BE00DD8826 /* RWInformationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWInformationViewController.h; sourceTree = "<group>"; };
+		128169C01D4B40BE00DD8826 /* RWInformationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWInformationViewController.m; sourceTree = "<group>"; };
+		128169C21D4B415200DD8826 /* RWCompleteCutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWCompleteCutView.h; sourceTree = "<group>"; };
+		128169C31D4B415200DD8826 /* RWCompleteCutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWCompleteCutView.m; sourceTree = "<group>"; };
 		128F40C31CFBEAE70095F69B /* GGWelcome.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GGWelcome.png; sourceTree = "<group>"; };
 		129B655F1CD98220007A7224 /* corr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = corr.png; sourceTree = "<group>"; };
 		129B65601CD98220007A7224 /* mark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mark.png; sourceTree = "<group>"; };
@@ -2401,6 +2405,10 @@
 		125D99C91CD0B67E00871ED4 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				128169BF1D4B40BE00DD8826 /* RWInformationViewController.h */,
+				128169C01D4B40BE00DD8826 /* RWInformationViewController.m */,
+				128169C21D4B415200DD8826 /* RWCompleteCutView.h */,
+				128169C31D4B415200DD8826 /* RWCompleteCutView.m */,
 				12ACD7851D274A6900B34C3C /* RWClassListModel.h */,
 				12ACD7861D274A6900B34C3C /* RWClassListModel.m */,
 				12ACD78A1D274A6D00B34C3C /* Video */,
@@ -3667,7 +3675,6 @@
 				12EDD82F1CE2D8F000C9FBB8 /* AppDelegate+DeployKVO.m in Sources */,
 				1234BC821D4B2B7D0066AF75 /* UIButton+WebCache.m in Sources */,
 				12FFF09D1CCF18FF003F58E2 /* main.m in Sources */,
-				1234BC901D4B2BD70066AF75 /* RWCompleteCutView.m in Sources */,
 				12EDD8381CE3372600C9FBB8 /* RWAlarmClockController.m in Sources */,
 				1234BC361D4B2B780066AF75 /* UMComReplyEditViewController.m in Sources */,
 				1234BC0F1D4B2B780066AF75 /* UMComFindTableViewCell.m in Sources */,
@@ -3709,13 +3716,13 @@
 				12FFF1301CCF3C63003F58E2 /* NSManagedObjectContext+MagicalChainSave.m in Sources */,
 				1234BC851D4B2B7D0066AF75 /* UIImage+WebP.m in Sources */,
 				12FFF1311CCF3C63003F58E2 /* NSManagedObjectContext+MagicalObserving.m in Sources */,
+				128169C41D4B415200DD8826 /* RWCompleteCutView.m in Sources */,
 				1234BBF21D4B2B780066AF75 /* UMComHorizonCollectionView.m in Sources */,
 				12ACD7971D274A8200B34C3C /* DWPlayerMenuView.m in Sources */,
 				1234BC411D4B2B780066AF75 /* UMComSysCommonTableViewCell.m in Sources */,
 				1234BC2D1D4B2B780066AF75 /* UMComTopicFeedViewController.m in Sources */,
 				1234BC4E1D4B2B780066AF75 /* UMComUserTableViewController.m in Sources */,
 				1234BC881D4B2B7D0066AF75 /* UIView+WebCacheOperation.m in Sources */,
-				1234BC911D4B2BD70066AF75 /* RWInformationViewController.m in Sources */,
 				1234BC491D4B2B780066AF75 /* UMComUserCenterViewController.m in Sources */,
 				12FFF13C1CCF3C63003F58E2 /* MagicalRecord+Setup.m in Sources */,
 				125D99771CD0B46800871ED4 /* RWChooseSubViewController.m in Sources */,
@@ -3786,6 +3793,7 @@
 				12F446021D1299DC00511336 /* RWAnimations.m in Sources */,
 				12FFF1241CCF3C63003F58E2 /* MagicalImportFunctions.m in Sources */,
 				12FFF1331CCF3C63003F58E2 /* NSManagedObjectContext+MagicalSaves.m in Sources */,
+				128169C11D4B40BE00DD8826 /* RWInformationViewController.m in Sources */,
 				12F814F81CE42E3400D6DEE9 /* RWClockPickView.m in Sources */,
 				1234BBF71D4B2B780066AF75 /* UMComMutiTextRun.m in Sources */,
 				1234BBEE1D4B2B780066AF75 /* UMComGridView.m in Sources */,
