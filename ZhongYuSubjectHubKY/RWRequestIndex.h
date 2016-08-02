@@ -11,6 +11,11 @@
 
 #define NAV_TITLE @"药师资讯"
 
+#define APP_ID @"1116295821"
+
+#define APP_STORE_URL @"http://itunes.apple.com/cn/lookup?id="APP_ID
+#define TO_APP_STORE @"itms-apps://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?type=Purple+Software&id="APP_ID
+
 #define MAIN_INDEX [NSURL URLWithString:@"http://m.zhongyuyao.com/list.php?fid=55"]
 //>> 资讯
 #define SERVERS_INDEX @"http://www.zhongyuedu.com/api/tk_yao_examtype.php"
